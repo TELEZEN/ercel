@@ -1,15 +1,15 @@
 class script(object):
     START_TXT = """𝙷𝙴𝙻𝙾 {},
-HELLO DEAR, MY NAME IS <a href=https://t.me/{}>{}</a>,I CAN ONLY BE USED IN MOVIES ALL GROUP 😂"""
+    MY NAME IS <a href=https://t.me/{}>{}</a>,I CAN ONLY BE USED IN MOVIES ALL GROUP 😂"""
     HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 𝙷𝙴𝚁𝙾𝙺𝚄
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v1.0.1 [ 𝙱𝙴𝚃𝙰 ]"""
+Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴᴅs."""
+    ABOUT_TXT = """I AM: {}
+Creator: <a href=@Lisa_My_Lub>Arjun Pradeep</a>
+Bot Updates: <a href=https://t.me/+WqhO2sfnZxcxYjk1>ERCEL</a>
+Library: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+Language: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+Data Base: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
+Bot Server: 𝙷𝙴𝚁𝙾𝙺𝚄
     SOURCE_TXT = """<b>NOTE:</b>
 - Eva Maria is a open source project. 
 - Source - https://github.com/EvamariaTG/EvaMaria  
