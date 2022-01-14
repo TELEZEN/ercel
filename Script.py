@@ -4,24 +4,25 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴᴅs."""
     ABOUT_TXT = """I AM: {}
-Creator: <a href=@Lisa_My_Lub>Arjun Pradeep</a>
-Bot Updates: <a href=https://t.me/+WqhO2sfnZxcxYjk1>ERCEL</a>
-Library: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-Language: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-Data Base: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-Bot Server: 𝙷𝙴𝚁𝙾𝙺𝚄
+  ✫ Cʀᴇᴀᴛᴏʀ:  <a href=@Lisa_My_Lub>Arjun Pradeep</a>
+  ✫ Bᴏᴛ Uᴘᴅᴀᴛᴇs:  <a href=https://t.me/+WqhO2sfnZxcxYjk1>ERCEL</a>
+  ✫ Lɪʙʀᴀʀʏ:  𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+  ✫ Lᴀɴɢᴜᴀɢᴇ:  𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+  ✫ Dᴀᴛᴀ Bᴀsᴇ:  𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
+  ✫ Bᴏᴛ Sᴇʀᴠᴇʀ:  𝙷𝙴𝚁𝙾𝙺𝚄
+  
     SOURCE_TXT = """<b>NOTE:</b>
-- Eva Maria is a open source project. 
-- Source - https://github.com/EvamariaTG/EvaMaria  
+- Ercel is a clone of an open source project - EvaMaria. 
+- Source - https://github.com/TELEZEN/ercel.  
 
 <b>DEVS:</b>
-- <a href=https://t.me/TeamEvamaria>Team Eva Maria</a>"""
+- <a href=@Lisa_My_Lub>Arjun Pradeep</a>"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
-- Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
+- Filter is the feature were users can set automated replies for a particular keyword and Ercel will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. eva maria should have admin privillage.
+1. Ercel should have admin privillage.
 2. only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
@@ -32,15 +33,15 @@ Bot Server: 𝙷𝙴𝚁𝙾𝙺𝚄
 • /delall - <code>delete the whole filters in a chat (chat owner only)</code>"""
     BUTTON_TXT = """Help: <b>Buttons</b>
 
-- Eva Maria Supports both url and alert inline buttons.
+- Ercel Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. Eva Maria supports buttons with any telegram media type.
+2. Ercel supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/EvaMariaBot)</code>
+<code>[Button Text](buttonurl:https://t.me/+WqhO2sfnZxcxYjk1)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -49,7 +50,7 @@ Bot Server: 𝙷𝙴𝚁𝙾𝙺𝚄
 <b>NOTE:</b>
 1. Make me the admin of your channel if it's private.
 2. make sure that your channel does not contains camrips, porn and fake files.
-3. Forward the last message to me with quotes.
+3. Forward the last message to me.
  I'll add all the files in that channel to my db."""
     CONNECTION_TXT = """Help: <b>Connections</b>
 
@@ -91,11 +92,11 @@ This module only works for my admins
 • /unban  - <code>to unban a user.</code>
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
-    STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
-★ 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>{}</code>
-★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱
-★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code> 𝙼𝚒𝙱"""
+    STATUS_TXT = """★ TOTAL FILES SAVED: <code>{}</code>
+★ ERCEL� USERS: <code>{}</code>
+★ TOTAL CHAT: <code>{}</code>
+★ STORAGE USED: <code>{}</code> 𝙼𝚒𝙱
+★ AVAILABLE STORAGE: <code>{}</code> 𝙼𝚒𝙱"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
