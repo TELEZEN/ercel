@@ -9,7 +9,7 @@ Tʜᴇsᴇ Aʀᴇ Tʜᴇ Aᴠᴀɪʟᴀʙʟᴇ Lɪsᴛ Oғ Mʏ Cᴏᴍᴍᴀɴ�
   ✫ Lɪʙʀᴀʀʏ:  𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
   ✫ Lᴀɴɢᴜᴀɢᴇ:  𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
   ✫ Dᴀᴛᴀ Bᴀsᴇ:  𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-  ✫ Bᴏᴛ Sᴇʀᴠᴇʀ:  𝙷𝙴𝚁𝙾𝙺𝚄
+  ✫ Bᴏᴛ Sᴇʀᴠᴇʀ:  𝙷𝙴𝚁𝙾𝙺𝚄"""
     SOURCE_TXT = """<b>NOTE:</b>
 - Ercel is a clone of Eva Maria - a open source project. 
 - Source - https://github.com/EvamariaTG/EvaMaria  
