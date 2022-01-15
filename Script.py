@@ -92,7 +92,7 @@ This module only works for my admins
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
     STATUS_TXT = """★ TOTAL FILES SAVED: <code>{}</code>
-★ ERCEL� USERS: <code>{}</code>
+★ ERCEL USERS: <code>{}</code>
 ★ TOTAL CHAT: <code>{}</code>
 ★ STORAGE USED: <code>{}</code> 𝙼𝚒𝙱
 ★ AVAILABLE STORAGE: <code>{}</code> 𝙼𝚒𝙱"""
