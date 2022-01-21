@@ -41,8 +41,10 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('DONT ADD ME TO GROUPS', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
-            InlineKeyboardButton('Mᴏᴠɪᴇs Aʟʟ', url='')
+            InlineKeyboardButton('DONT ADD ME TO GROUPS', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            ],[
+            InlineKeyboardButton('Movies ALL', url='https://t.me/tomoviesall'),
+            InlineKeyboardButton('Developer', url='@Arjun_La_Lis_A')
             ],[
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='https://t.me/tomoviesall'),
             InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/+WqhO2sfnZxcxYjk1')
