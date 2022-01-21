@@ -40,18 +40,15 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
-        buttons = [[[
+        buttons = [[
             InlineKeyboardButton('DONT ADD ME TO GROUPS', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('Movies ALL', url='https://t.me/tomoviesall'),
-            InlineKeyboardButton('Developer', url='@Arjun_La_Lis_A')
             ],[
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='https://t.me/tomoviesall'),
             InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/+WqhO2sfnZxcxYjk1')
             ],[
             InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
-        ]]]
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
@@ -84,18 +81,15 @@ async def start(client, message):
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[[
+        buttons = [[
             InlineKeyboardButton('Dont Aᴅᴅ Mᴇ Tᴏ Gʀᴏᴜᴘs', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-            InlineKeyboardButton('Movies ALL', url='https://t.me/tomoviesall'),
-            InlineKeyboardButton('Developer', url='@Arjun_La_Lis_A')
             ],[
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/+WqhO2sfnZxcxYjk1')
             ],[
             InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
-        ]]]
+        ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
