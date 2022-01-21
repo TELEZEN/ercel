@@ -41,15 +41,17 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('DONT ADD ME TO GROUPS', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('Dᴏɴᴛ Tᴏᴜᴄʜ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
+            InlineKeyboardButton('Mᴏᴠɪᴇs Aʟʟ', url='https://t.me/tomoviesall'),
+            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='https://t.me/tomoviesall')
             ],[
-            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='https://t.me/tomoviesall'),
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/+WqhO2sfnZxcxYjk1'),
-            InlineKeyboardButton('Mᴏᴠɪᴇs ᴀʟʟ', url='https://t.me/tomoviesall')
+            InlineKeyboardButton('Mʏ Pʀᴏғɪʟᴇ', url='https://telegra.ph/file/d1bf0c0b166b4ba50c0ca.jpg'),
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ', url='https://t.me/+2II-zW8UCLw4ZTFl'),
+            InlineKeyboardButton('Mʏ Fɪʟᴇs', url='https://t.me/+f2zfFt4QnHszYjll')
             ],[
-            InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
-            InlineKeyboardButton('Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Arjun_La_Lis_A')
+            InlineKeyboardButton('Nᴇᴇᴅ Hᴇʟᴘ?', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ Mᴇ', callback_data='about'),
+            InlineKeyboardButton('Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Arjun_La_Lis_A')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -84,15 +86,17 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('DONT ADD ME TO GROUPS', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('Dᴏɴᴛ Tᴏᴜᴄʜ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
+            InlineKeyboardButton('Mᴏᴠɪᴇs Aʟʟ', url='https://t.me/tomoviesall'),
+            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='https://t.me/tomoviesall')
             ],[
-            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='https://t.me/tomoviesall'),
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/+WqhO2sfnZxcxYjk1'),
-            InlineKeyboardButton('Mᴏᴠɪᴇs ᴀʟʟ', url='https://t.me/tomoviesall')
+            InlineKeyboardButton('Mʏ Pʀᴏғɪʟᴇ', url='https://telegra.ph/file/d1bf0c0b166b4ba50c0ca.jpg'),
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ', url='https://t.me/+2II-zW8UCLw4ZTFl'),
+            InlineKeyboardButton('Mʏ Fɪʟᴇs', url='https://t.me/+f2zfFt4QnHszYjll')
             ],[
-            InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
-            InlineKeyboardButton('Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Arjun_La_Lis_A')
+            InlineKeyboardButton('Nᴇᴇᴅ Hᴇʟᴘ?', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ Mᴇ', callback_data='about'),
+            InlineKeyboardButton('Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Arjun_La_Lis_A')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
