@@ -44,10 +44,12 @@ async def start(client, message):
             InlineKeyboardButton('DONT ADD ME TO GROUPS', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='https://t.me/tomoviesall'),
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/+WqhO2sfnZxcxYjk1')
+            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/+WqhO2sfnZxcxYjk1'),
+            InlineKeyboardButton('Mᴏᴠɪᴇs ᴀʟʟ', url='https://t.me/tomoviesall')
             ],[
             InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Arjun_La_Lis_A')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -82,13 +84,15 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('Dont Aᴅᴅ Mᴇ Tᴏ Gʀᴏᴜᴘs', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('DONT ADD ME TO GROUPS', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/+WqhO2sfnZxcxYjk1')
+            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='https://t.me/tomoviesall'),
+            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/+WqhO2sfnZxcxYjk1'),
+            InlineKeyboardButton('Mᴏᴠɪᴇs ᴀʟʟ', url='https://t.me/tomoviesall')
             ],[
             InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Arjun_La_Lis_A')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
