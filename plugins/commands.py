@@ -42,8 +42,9 @@ async def start(client, message):
     if len(message.command) != 2:
         buttons = [[
             InlineKeyboardButton('DONT ADD ME TO GROUPS', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('Mᴏᴠɪᴇs Aʟʟ', url='')
             ],[
-            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='https://t.me/tomoviesall'),
             InlineKeyboardButton('Uᴘᴅᴀᴛᴇs', url='https://t.me/+WqhO2sfnZxcxYjk1')
             ],[
             InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
