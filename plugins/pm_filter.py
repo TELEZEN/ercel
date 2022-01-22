@@ -398,7 +398,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('Dᴏɴᴛ Tᴏᴜᴄʜ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
+            InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Gʀᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             InlineKeyboardButton('Mᴏᴠɪᴇs Aʟʟ', url='https://t.me/tomoviesall'),
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
@@ -435,7 +435,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('Dᴏɴᴛ Tᴏᴜᴄʜ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
+            InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Gʀᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             InlineKeyboardButton('Mᴏᴠɪᴇs Aʟʟ', url='https://t.me/tomoviesall'),
             InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
