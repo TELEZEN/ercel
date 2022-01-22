@@ -398,13 +398,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('Dᴏɴᴛ Tᴏᴜᴄʜ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
+            InlineKeyboardButton('Mᴏᴠɪᴇs Aʟʟ', url='https://t.me/tomoviesall'),
+            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🔍 Search', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria')
+            InlineKeyboardButton('Mʏ Pʀᴏғɪʟᴇ', url='https://telegra.ph/file/d1bf0c0b166b4ba50c0ca.jpg'),
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ', url='https://t.me/+2II-zW8UCLw4ZTFl'),
+            InlineKeyboardButton('Mʏ Fɪʟᴇs', url='https://t.me/+f2zfFt4QnHszYjll')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')
+            InlineKeyboardButton('Nᴇᴇᴅ Hᴇʟᴘ?', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ Mᴇ', callback_data='about'),
+            InlineKeyboardButton('Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Arjun_La_Lis_A')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -431,11 +435,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/TeamEvamaria'),
-            InlineKeyboardButton('♥️ Source', callback_data='source')
+            InlineKeyboardButton('Dᴏɴᴛ Tᴏᴜᴄʜ', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
+            InlineKeyboardButton('Mᴏᴠɪᴇs Aʟʟ', url='https://t.me/tomoviesall'),
+            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('🏠 Home', callback_data='start'),
-            InlineKeyboardButton('🔐 Close', callback_data='close_data')
+            InlineKeyboardButton('Mʏ Pʀᴏғɪʟᴇ', url='https://telegra.ph/file/d1bf0c0b166b4ba50c0ca.jpg'),
+            InlineKeyboardButton('Sᴏᴜʀᴄᴇ', url='https://t.me/+2II-zW8UCLw4ZTFl'),
+            InlineKeyboardButton('Mʏ Fɪʟᴇs', url='https://t.me/+f2zfFt4QnHszYjll')
+            ],[
+            InlineKeyboardButton('Nᴇᴇᴅ Hᴇʟᴘ?', callback_data='help'),
+            InlineKeyboardButton('Aʙᴏᴜᴛ Mᴇ', callback_data='about'),
+            InlineKeyboardButton('Mʏ Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Arjun_La_Lis_A')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
